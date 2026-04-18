@@ -40,7 +40,7 @@ There are two primary ways to orientate the adapter.:
 Orientation 1 generally is the "cleaner" setup(or if you have limited intputs), though the problem is that the CEC adapter limits the signal to 4k60, so if you want better performance than that, you will likely prefer orientation 2, as you'll have a direction connection to the TV from your HTPC and will register the secondary input as a control system.
 
 <ins>**Automation Setup**</ins>  
-* First thing to do is confirm that your adapter is properly detected, running ```sudo cec-client -l``` (you may have to stop any services auto-downloaded by libCEC)
-* 
+* First thing to do is confirm that your adapter is properly detected, running ```sudo cec-client -l```. (you may have to stop a default service using the adapter by running ```lsof /dev/ttyACM0``` then ```sudo systemctl stop servicename.service```) 
+* Once you can confirm it's detected, connect to the adapter using ```sudo cec-client -p /dev/ttyACM0 -t p -d 1``` -t p -d 1 registers as a playback device that outputs your debug values.
 
 
