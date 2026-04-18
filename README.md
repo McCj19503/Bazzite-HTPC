@@ -15,6 +15,10 @@ Personal documentation for any and all tools implemented to optimize a Bazzite H
 
 <sub>Facebook marketplace is not overated! I saved like 60-70% on low-risk components.</sub>  
 
+<ins>***Televisions:***</ins>  
+*Samsung S90C, Samsung TU7000D, Samsung Q70C, Sony X800E, LG B6*  
+I currently use an S90C and this is what I have used extensively without issue. I have been able to interact with the above televisions and the process to reproduce was all the same on a basic level.
+
 
 <ins>***Chassis:***</ins>  
 *Silverstone GD05-B*  
