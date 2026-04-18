@@ -8,4 +8,4 @@ In short, the TV sends or recieves a CEC value (this is where manufacturers can 
 <ins>**libCEC**</ins>  
 Pulse-Eight's libCEC decodes CEC messages from the TV and encodes commands you send. It is immensely vital to use this library.  
 <ins>**Cec-Client**</ins>  
-Comes with libCEC. Primary testing interface for viewing the CEC signal the TV is sending
+Comes with libCEC. Primary testing interface for viewing the CEC signal the TV is sending. Values seen as `<< 01:44:01`  
