@@ -19,22 +19,28 @@ Personal documentation for any and all tools implemented to optimize a Bazzite H
 ⠀
 <ins>***Chassis:***</ins>
 *Silverstone GD05-B*
-
 Best thing I could find for the performance I wanted due to size constraints in a TV cabinet. Has space for a sata DVD drive as well.
 
 ⠀
 <ins>***Motherboard:***</ins>
 *MSI MAG B550 TOMAHAWK MAX WIFI*
-
 The only factor was finding a motherboard with USB-Wake. Unfortunately most motherboard manufacturers don't include that information, even in the manual, so it's either a gamble, or find something that has already been discussed online before.
 
 ⠀
 <ins>***GPU:***</ins>
-*AMD 7900XT & 6600XT*
+*AMD 7900XT.*
+Each GPU has it's own quirks but it seems AMD will consistently be the most stable.
 
-Initially got a 6600XT 
+⠀
+<ins>***Others:***</ins>
+These are generally going to be preference based.
+* AM4 used 5800x3d and TeamForce 32gb RAM. (stability/ram prices)
+* 1TB WD Black m.2 SSD ()
+* 
 
-Honestly 
+
+
+
 
 ⠀
 
@@ -45,7 +51,10 @@ Honestly
 
 
 
-<ins>***Motherboard:***</ins>
+<ins>***Motherboard:***</ins>SeaGate internal 4TB HDD.
+* Generic 5.25" optical drive.
+
+
 ## unf
 - USB-CEC adapter
   - Pulse-Eight USB-CEC Adapter recommended
