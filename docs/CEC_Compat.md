@@ -41,6 +41,10 @@ Orientation 1 generally is the "cleaner" setup(or if you have limited intputs), 
 
 <ins>**Automation Setup**</ins>  
 * First thing to do is confirm that your adapter is properly detected, running ```sudo cec-client -l```. (you may have to stop a default service using the adapter by running ```lsof /dev/ttyACM0``` then ```sudo systemctl stop servicename.service```) 
-* Once you can confirm it's detected, connect to the adapter using ```sudo cec-client -p /dev/ttyACM0 -t p -d 1``` -t p -d 1 registers as a playback device that outputs your debug values.
+* Once you can confirm it's detected, confirm you can connect to the adapter using ```sudo cec-client -p /dev/ttyACM0 -t p -d 1``` 
+* The ```on``` and ```standby``` commands are easily the most important when it comes to CEC. You can test them via ```echo "on 0" | sudo cec-client -s -d 1 -p /dev/ttyACM0 -t p```.
+```echo "standby 0" | sudo cec-client -s -d 1 -p /dev/ttyACM0 -t p``` If these both work, then you should already be golden. If these  don't, then that's what most of the doc is for:
 
+**Confirm that the CEC commands are being read:**
+* using ```sudo cec-client -p /dev/ttyACM0 -d 1```
 
