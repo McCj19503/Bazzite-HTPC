@@ -47,4 +47,6 @@ Orientation 1 generally is the "cleaner" setup(or if you have limited intputs), 
 
 **Confirm that the CEC commands are being read:**
 * using ```sudo cec-client -p /dev/ttyACM0 -t p -d 1```, you should be able to see values such as ```<< 01:44:01```,```<< 4f:82:10:00``` when doing things such as powering on the TV, changing inputs, pressing remote buttons, etc. These are the raw CEC messages that are being sent across the BUS. I have yet to come across an instance with a television where the issue was these signals not existing. Good news: if they exist, you can use them!
-* 
+
+**Creating new CEC commands:**
+
