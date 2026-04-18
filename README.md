@@ -38,33 +38,3 @@ These are generally going to be preference based.
 * 1TB WD Black m.2 SSD  
 * SeaGate internal 4TB HDD.  
 * Generic 5.25" optical drive.  
-
-
-## unf
-
-- USB-CEC adapter
-  - Pulse-Eight USB-CEC Adapter recommended
-- HDMI cable routed through the adapter
-- TV with HDMI-CEC support
-  - On Samsung TVs, enable Anynet+
-
-## Software Requirements
-
-- Bazzite
-- `libcec`
-- `cec-client`
-- `systemd`
-
-## Setup
-
-### 1. Verify the CEC adapter is detected
-
-```bash
-ls /dev/ttyACM*
-
-
-- Power on TV when the HTPC boots
-- Power off TV when the HTPC sleeps or shuts down
-- Works in Gamescope (Game Mode) and Desktop Mode
-- Compatible with Samsung TVs using Anynet+
-- Uses native Linux tools: `libcec`, `cec-client`, and `systemd`
