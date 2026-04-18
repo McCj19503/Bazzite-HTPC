@@ -35,27 +35,13 @@ Each GPU has it's own quirks but it seems AMD will consistently be the most stab
 <ins>***Others:***</ins>
 These are generally going to be preference based.
 * AM4 used 5800x3d and TeamForce 32gb RAM. (stability/ram prices)
-* 1TB WD Black m.2 SSD ()
-* 
-
-
-
-
-
-⠀
-
-
-
-
-
-
-
-
-<ins>***Motherboard:***</ins>SeaGate internal 4TB HDD.
+* 1TB WD Black m.2 SSD 
+* SeaGate internal 4TB HDD.
 * Generic 5.25" optical drive.
 
 
 ## unf
+
 - USB-CEC adapter
   - Pulse-Eight USB-CEC Adapter recommended
 - HDMI cable routed through the adapter
