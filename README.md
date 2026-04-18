@@ -2,7 +2,7 @@
 
 Personal documentation for any and all tools implemented to optimize a Bazzite HTPC to have the most console-like experience!
 
-
+⠀
 ## Main
 [Hardware](readme.md#Hardware)
 Initial system/software setup
@@ -11,19 +11,41 @@ HDMI 2.1 workaround
 USB wake
 Minor optimizations
 
+⠀
 ## Hardware
 
+<sub>Facebook marketplace is not overated! I saved like 60-70% on low-risk components.</sub>
+
+⠀
 <ins>***Chassis:***</ins>
 *Silverstone GD05-B*
 
-Best thing I could find for the performance I wanted due to size constraints in a TV cabinet.
+Best thing I could find for the performance I wanted due to size constraints in a TV cabinet. Has space for a sata DVD drive as well.
 
-<br><ins>***Motherboard:***</ins>
+⠀
+<ins>***Motherboard:***</ins>
 *MSI MAG B550 TOMAHAWK MAX WIFI*
 
-The only factor was finding a motherboard with USB-Wake. Unfortunately most motherboard manufacturers don't include that information, even in the manual, so it's either a gamble, or find something that has already been discussed online before. 
+The only factor was finding a motherboard with USB-Wake. Unfortunately most motherboard manufacturers don't include that information, even in the manual, so it's either a gamble, or find something that has already been discussed online before.
+
+⠀
+<ins>***GPU:***</ins>
+*AMD 7900XT & 6600XT*
+
+Initially got a 6600XT 
+
+Honestly 
+
+⠀
 
 
+
+
+
+
+
+
+<ins>***Motherboard:***</ins>
 ## unf
 - USB-CEC adapter
   - Pulse-Eight USB-CEC Adapter recommended
