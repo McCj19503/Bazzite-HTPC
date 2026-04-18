@@ -6,7 +6,7 @@ Personal documentation for any and all tools implemented to optimize a Bazzite H
 ## Main
 * [Hardware](README.md#Hardware)
 * Initial system/software setup
-* [HDMI CEC compatability](CEC_Compat.md)
+* [HDMI CEC compatability](docs/CEC_Compat.md)
 * HDMI 2.1 workaround
 * USB wake
 * Minor optimizations
