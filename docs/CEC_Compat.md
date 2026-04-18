@@ -1,4 +1,4 @@
-## CEC
+## CEC compatabiltiy
 
 - USB-CEC adapter
   - Pulse-Eight USB-CEC Adapter recommended
