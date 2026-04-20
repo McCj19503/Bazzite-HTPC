@@ -12,7 +12,7 @@ Documentation for any and all tools to optimize a Bazzite HTPC to have the most 
 * Minor optimizations
 
 ⠀
-## Hardware
+## Hardware used
 
 <sub>Facebook marketplace is not overated! I saved like 60-70% on low-risk components.</sub>  
 
