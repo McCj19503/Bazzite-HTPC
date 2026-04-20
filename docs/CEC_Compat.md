@@ -8,6 +8,7 @@ In short, the TV sends or recieves a CEC value (this is where manufacturers can 
 ## Software Tools 
 <ins>**libCEC**</ins>  
 Pulse-Eight's libCEC decodes CEC messages from the TV and encodes commands you send.  
+
 <ins>**Cec-Client**</ins>  
 Comes with libCEC. Primary testing interface for viewing the CEC signal the TV is sending. Values seen similarly as `<< 01:44:01`  
 * ```/etc/systemd/system/``` will host service files. These can execute alongside your system services (eg sleep & wake), calling your .sh files that run your primary scripts. The default installed services are in ```/usr/lib/systemd/system```.
