@@ -1,10 +1,10 @@
 [Unit]
-Description=Power Off TV Before Suspend
-Before=suspend.target
+Description=Power On TV After Resume
+After=suspend.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/tv-off.sh
+ExecStart=/bin/bash -c 'sleep 2 && /usr/local/bin/tv-on.sh'
 
 [Install]
 WantedBy=suspend.target
