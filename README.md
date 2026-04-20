@@ -38,7 +38,7 @@ Each GPU has it's own quirks but it seems AMD will consistently be the most stab
 
 <ins>***Others:***</ins>  
 These are generally going to be preference based.  
-* AM4 used 5800x3d and TeamForce 32gb RAM. (stability/ram prices)  
+*  Ryzen 7 5800x and TeamForce 32gb RAM. (stability/ram prices)  
 * 1TB WD Black m.2 SSD  
 * SeaGate internal 4TB HDD.  
 * Generic 5.25" optical drive.  
