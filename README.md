@@ -1,6 +1,6 @@
 # Bazzite HTPC Documentation
 
-Documentation for any and all tools I implemented to optimize a Bazzite HTPC to have the most console-like experience! Included are example files for CEC compatability
+Documentation for any and all tools to optimize a Bazzite HTPC to have the most console-like experience! Included are example files for CEC compatability
 
 ⠀
 ## Main
