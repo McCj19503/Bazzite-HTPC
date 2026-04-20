@@ -1,1 +1,10 @@
+[Unit]
+Description=Power Off TV Before Suspend
+Before=suspend.target
 
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/tv-off.sh
+
+[Install]
+WantedBy=suspend.target
