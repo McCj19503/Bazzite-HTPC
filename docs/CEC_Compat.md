@@ -39,7 +39,7 @@ There are two primary ways to orientate the adapter.:
 ```
 Orientation 1 generally is the "cleaner" setup(or if you have limited intputs), though the problem is that the CEC adapter limits the signal to 4k60, so if you want better performance than that, you will likely prefer orientation 2, as you'll have a direction connection to the TV from your HTPC and will register the secondary input as a control system.
 
-<ins>**Automation Setup**</ins>  
+<ins>**How does Automation work?**</ins>  
 * First thing to do is confirm that your adapter is properly detected, running ```sudo cec-client -l```. (you may have to stop a default service using the adapter by running ```lsof /dev/ttyACM0``` then ```sudo systemctl stop servicename.service```) 
 * Once you can confirm it's detected, confirm you can connect to the adapter using ```sudo cec-client -p /dev/ttyACM0 -t p -d 1``` 
 * The ```on``` and ```standby``` commands are easily the most important when it comes to CEC. You can test them via ```echo "on 0" | sudo cec-client -s -d 1 -p /dev/ttyACM0 -t p```.
@@ -55,15 +55,18 @@ Before, we used echo to trigger a default cec-client command that is set as a se
 *So how do we make our own (automated) commands?*  
 We create our own service that is set to run after system services (suspend.target, etc). These will then trigger .sh scripts, which we will use to transmit our cec commands.
 ```
-system event (sleep / resume / shutdown)
+system event
         ↓
 systemd service triggers
         ↓
-ExecStart runs your script
+custom service runs
         ↓
 script runs cec-client command
         ↓
 TV responds
 ```
-  
-talk: tx vs on 0 
+
+<ins>**Automation Setup**</ins>  
+
+* Confirming with the initial setup that your device is both recognized and that the CEC signals are being recognized-
+* 
