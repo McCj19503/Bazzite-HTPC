@@ -76,4 +76,16 @@ Using ```sudo cec-client -p /dev/ttyACM0 -t p -d 1``` Confirm the consistent val
 In the folder we will store our .sh files, ```/usr/local/bin/```, create a file that will transmit our value. For instances, ```/usr/local/bin/tv-on.sh```. Enter your script with the CEC value it coinsides with: ```#!/bin/bash
 echo "on 0" | /usr/bin/cec-client -s -d 1 -p /dev/ttyACM0 -t p```, then make sure it can be executed with ```sudo chmod +x /usr/local/bin/tv-on.sh```
 2. **Create systemd service files**
-Our service files will be stored in ```/etc/systemd/system/```. 
+Our service files will be stored in ```/etc/systemd/system/```. Typically it will read along the lines of:
+```
+[Unit]
+Description=Power On TV After Resume
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'sleep 2 && /usr/local/bin/tv-on.sh'
+
+[Install]
+WantedBy=suspend.target
+```
