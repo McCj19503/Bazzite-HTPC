@@ -73,4 +73,5 @@ Confirming with the initial setup that your device is both recognized and that t
 1. **Identify your working CEC commands**
 Using ```sudo cec-client -p /dev/ttyACM0 -t p -d 1``` Confirm the consistent values that occur on an action(power on/off). Use these values returned into ```echo "tx <value>" | cec-client ...``` to double check that you can execute them yourself.
 2. **Creating a script to automate the command.**
-In the folder we will store our .sh files, ```/usr/local/bin/```, create a file that will transmit our value. For instances, ```/usr/local/bin/tv-on.sh```
+In the folder we will store our .sh files, ```/usr/local/bin/```, create a file that will transmit our value. For instances, ```/usr/local/bin/tv-on.sh```. Enter your script with the CEC value it coinsides with: ```#!/bin/bash
+echo "on 0" | /usr/bin/cec-client -s -d 1 -p /dev/ttyACM0 -t p```, then make sure it can be executed with ```sudo chmod +x /usr/local/bin/tv-on.sh```
