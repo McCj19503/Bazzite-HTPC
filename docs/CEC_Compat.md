@@ -54,7 +54,8 @@ Primary goal here is to be able to find the CEC traffic and to set those values 
 Before, we used echo to trigger a default cec-client command that is set as a service by libCEC to output traffic to the adapter. Now, this is pre-made and generally doesn't often send the correct signal (hence issues with many users turning off their devices).  
 *So how do we make our own (automated) commands?*  
 We create our own service that is set to run after system services (suspend.target, etc). These will then trigger .sh scripts, which we will use to transmit our cec commands.
-```system event (sleep / resume / shutdown)
+```
+system event (sleep / resume / shutdown)
         ↓
 systemd service triggers
         ↓
