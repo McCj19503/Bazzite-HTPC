@@ -5,7 +5,7 @@ Documentation for any and all tools to optimize a Bazzite HTPC to have the most 
 ⠀
 ## Main
 * [Hardware](README.md#Hardware)
-* [HDMI CEC compatability](docs/CEC_Compat.md) - wip
+* [HDMI CEC compatability](docs/CEC_Compat.md) 
 * [HDMI 2.1 workaround](docs/hdmi2.1compat.md) -todo>
 * USB wake
 * Universal Split Screen
