@@ -23,7 +23,7 @@ I currently use a Samsung S90C extensively without issue (plenty of user error).
 
 <ins>***Chassis:***</ins>  
 *Silverstone GD05-B*  
-Best thing I could find for the performance I wanted due to size constraints in a TV cabinet. Has space for a sata DVD drive as well.  
+Best thing I could find that I wanted due to size constraints in a TV cabinet while wanting 4K120 gaming. Has space for a sata DVD drive as well.  
 
 
 <ins>***Motherboard:***</ins>  
