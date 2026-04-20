@@ -8,6 +8,7 @@ Personal documentation for any and all tools implemented to optimize a Bazzite H
 * [HDMI CEC compatability](docs/CEC_Compat.md)
 * HDMI 2.1 workaround
 * USB wake
+* Universal Split Screen
 * Minor optimizations
 
 ⠀
