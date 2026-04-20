@@ -70,4 +70,5 @@ TV responds
 
 Confirming with the initial setup that your device is both recognized and that the CEC signals are being recognized-  
 
-1. Identify your working CEC commands
+1. **Identify your working CEC commands**
+Using ```sudo cec-client -p /dev/ttyACM0 -t p -d 1``` Confirm the consistent values that occur on an action(power on/off). Use these values returned into ```echo "tx <value>" | cec-client ...``` to double check that you can execute them yourself.
