@@ -68,5 +68,6 @@ TV responds
 
 <ins>**Automation Setup**</ins>  
 
-* Confirming with the initial setup that your device is both recognized and that the CEC signals are being recognized-
-* 
+Confirming with the initial setup that your device is both recognized and that the CEC signals are being recognized-  
+
+1. Identify your working CEC commands
